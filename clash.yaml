@@ -1,0 +1,55 @@
+mixed-port: 7890
+allow-lan: false
+mode: rule
+log-level: warning
+external-controller: 127.0.0.1:9090
+clash-for-android:
+  append-system-dns: false
+unified-delay: true
+global-client-fingerprint: chrome
+keep-alive-interval: 360
+proxies:
+  - {name: VN²_1|sinspired/subs-check, server: 113.177.204.26, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇫🇷 FR⁻¹_1, server: 185.253.116.133, port: 8443, type: trojan, password: trojan, sni: tianjiu.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tianjiu.pages.dev}}, udp: true}
+  - {name: 🇺🇸 US²_2|0%|GPT⁺|KeepSucceed, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: trojan.burgerip.co.uk, udp: true}
+  - {name: 🇺🇸 US⁻¹_1|KeepSucceed, server: do-itforyou.pages.dev, port: 2083, type: trojan, password: "$_qP4V4U26sb{04A", sni: do-itfORYOU.PAGEs.deV, skip-cert-verify: true, network: ws, ws-opts: {path: /trdFPAI0ljLLOygN2y, headers: {Host: do-itfORYOU.PAGEs.deV}}, udp: true}
+  - {name: 🇭🇰 HK²_1|0%|KeepSucceed, server: 103.149.183.113, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 🇺🇸 US²_3|0%|KeepSucceed, server: 154.26.192.123, port: 10988, type: http, username: fQ67Dpe5dU, password: gs4BXwT6SW, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇭🇰 HK²_2, server: 58.152.30.120, port: 443, type: trojan, password: BxceQaOe, sni: t.me/ripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: ‍☠_2🏴‍☠_1115.160.151.84:12354|sinspired/subs-check|KeepHistory, server: 15.160.151.84, port: 12354, type: http, tls: true, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US²_4|sinspired/subs-check, server: 199.217.98.100, port: 2525, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US⁻¹_3|KeepHistory, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, sni: kfjdi.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kfjdi.pages.dev}}, udp: true}
+  - {name: ‍☠_3🇻🇳VN²_1|KeepSucceed, server: 103.186.154.192, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇳🇱 NL²_10|0%|GPT⁺|YT-RU|sinspired/subs-check, server: 195.66.27.148, port: 28709, type: ss, cipher: chacha20-ietf-poly1305, password: hShp1Km0NcFSmSigc8ozky, udp: true}
+  - {name: 🇭🇰 HK²_3|KeepSucceed, server: 103.149.182.86, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 🇺🇸 US⁻¹_6|sinspired/subs-check, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, sni: kfjdi.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: kfjdi.pages.dev}}, udp: true}
+  - {name: ‍☠_4🇺🇸US_740, server: 132.145.154.72, port: 443, type: vmess, uuid: bcb7c581-3c95-4569-a4e7-918141e91ea3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: a.189.cn, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇭🇰 HK²_4|1%, server: gs7ds312f.gdufds.xyz, port: 41311, type: vmess, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}, udp: true}
+  - {name: 🇩🇪 DE²_7|1%|GPT⁺|KeepSucceed, server: 43.165.7.71, port: 19751, type: vmess, uuid: 6cfa6103-5d06-40cb-f452-b563db578288, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/]}, udp: true}
+  - {name: 🇺🇸 US⁻¹_9|KeepSucceed, server: www.visa.com.sg, port: 8443, type: trojan, password: trojan, sni: azadnet-f03.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: azadnet-f03.pages.dev}}, udp: true}
+  - {name: 🇺🇸 US²_6|KeepHistory, server: 98.91.112.114, port: 80, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇳🇱 NL¹⁺_1|GPT⁺|sinspired/subs-check, server: 172.67.134.185, port: 443, type: trojan, password: POORIARED, sni: reDfRee8.REDFree8.ir, skip-cert-verify: true, network: ws, ws-opts: {path: /eyJqdW5rIjoiVUl6eXhLZkkwUTJ3ZzkiLCJwcm90b2NvbCI6InRyIiwibW9kZSI6InByb3h5aXAiLCJwYW5lbElQcyI6W119, headers: {Host: reDfRee8.REDFree8.ir}}, udp: true}
+  - {name: 🇭🇰 HK²_5|0%|YT, server: 103.149.182.79, port: 8388, type: ss, cipher: chacha20-ietf, password: asd123456, udp: true}
+  - {name: 🇭🇰 HK²_6|KeepSucceed, server: 8.218.207.5, port: 20344, type: http, username: kZXMC3Z1, password: nOEy3w0R, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US²_7|0%|GPT|KeepSucceed, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: 82.198.246.97, udp: true}
+  - {name: SE⁻¹_1, server: 195.123.211.204, port: 81, type: trojan, password: trojan, sni: tianjiu.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tianjiu.pages.dev}}, udp: true}
+  - {name: IE²_1|2%|KeepSucceed, server: 18.202.158.161, port: 80, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇺🇸 US²_8|0%|GPT⁺|KeepHistory, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: img14.360buyimg.com, udp: true}
+  - {name: ‍☠_6🇻🇳VN-103.186.155.224-7851, server: 103.186.155.224, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇺🇸 US²_9|GPT⁺, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP²_2|GPT, server: 23.227.38.33, port: 443, type: trojan, password: aff9928f-7ba3-45fb-b56d-4dec45653ca9, sni: z9mifq7ujufk56im.jptimecsgo.xyz, skip-cert-verify: true, network: ws, ws-opts: {path: /images, headers: {Host: z9mifq7ujufk56im.jptimecsgo.xyz}}, udp: true}
+  - {name: 🇺🇸 US²_10|2%|sinspired/subs-check, server: 52.203.62.58, port: 80, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ‍☠_7🏴‍☠_11🇻🇳VN-103.186.155.226-7600|KeepSucceed, server: 103.186.155.226, port: 38388, type: ss, cipher: aes-256-cfb, password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV, udp: true}
+  - {name: 🇭🇰 HK²_7, server: 219.79.186.107, port: 443, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: true, udp: true}
+  - {name: 🇬🇧 GB²_2|GPT|KeepSucceed, server: xiaoliyu4624.v.jsqcdn.bid, port: 41320, type: vmess, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}, udp: true}
+  - {name: 🇭🇰 HK²_8|KeepSucceed, server: 58.152.25.20, port: 443, type: trojan, password: BxceQaOe, sni: 58.152.25.20, skip-cert-verify: true, udp: true}
+  - {name: 🇩🇪 DE⁻¹_2, server: 37.120.187.246, port: 2001, type: trojan, password: trojan, sni: tianjiu.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tianjiu.pages.dev}}, udp: true}
+  - {name: 🇺🇸 ‍☠_8🇺🇸US⁻¹_14|sinspired/subs-check|KeepHistory, server: kfjdi.pages.dev, port: 443, type: trojan, password: er668, sni: kfjdi.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN", headers: {Host: kfjdi.pages.dev}}, udp: true}
+  - {name: 🇷🇺 RU²_15|KeepSucceed, server: 46.161.6.165, port: 8080, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇨🇳 TW²_1|GM|KeepHistory, server: twmoon1-cdn-route.couldflare-cdn.com, port: 1443, type: http, username: mrwdfNTD8M79LCukCieldrqZWqs=, password: exaxgqkKkd0TAMrCxeonWg==, tls: true, skip-cert-verify: true, udp: true}
+  - {name: ‍☠_1139.174.83.85:21-02|sinspired/subs-check, server: 39.174.83.85, port: 21, type: http, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 🇯🇵 JP²_3|5%|GPT⁺|sinspired/subs-check, server: xiaoliyu4624.v.jsqcdn.bid, port: 41315, type: vmess, uuid: 82539eb7-18c8-48d0-bb9c-55d1b6e47f59, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /obj, headers: {Host: img14.360buyimg.com}}, udp: true}
+  - {name: 🇩🇪 DE⁻¹_3, server: 91.107.243.237, port: 2053, type: trojan, password: trojan, sni: tianjiu.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tianjiu.pages.dev}}, udp: true}
+  - {name: 🇳🇱 NL⁻¹_6, server: 185.186.244.191, port: 81, type: trojan, password: trojan, sni: tianjiu.pages.dev, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: tianjiu.pages.dev}}, udp: true}
+  - {name: 🇸🇬 SG²_1|KeepSucceed, server: v12.hdacd.com, port: 30812, type: vmess, uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me%2Fripaojiedian, udp: true}
+  - {name: 🇬🇧 ‍☠_13🇬🇧_英国_2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: t.me%2Fripaojiedian, udp: true}
